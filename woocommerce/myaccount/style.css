@@ -1,0 +1,669 @@
+/*
+Theme Name: Hongo Child
+Theme URI: http://hongo.themezaa.com
+Description: Child theme for Hongo theme
+Version: 1.1.9
+Author: ThemeZaa
+Author URI: https://www.themezaa.com
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, custom-background, custom-colors, flexible-header, flexible-footer, custom-menu, editor-style, featured-images, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce
+License: Themeforest Split Licence
+License URI: https://themeforest.net/licenses
+Template: hongo
+Text Domain: hongo-child
+*/
+
+@font-face {
+    font-family: Chronicle;
+    src: url("ChronicleDisplayLight.otf");
+}
+
+@font-face {
+    font-family: avenir;
+    src: url("avenir-next-regular.ttf");
+}
+
+.single-product {
+    font-family: avenir;
+}
+
+#cafe-countdown-lab {
+    font-weight: 500 !important;
+}
+
+.product_title {
+    font-family: Chronicle !important;
+    display: block;
+    margin: 1.65em auto .75em !important;
+    font-size: 2.8rem !important;
+    font-weight: 300 !important;
+    font-style: normal;
+    letter-spacing: 0 !important;
+}
+
+.preproduct-text {
+    font-family: "Montserrat" !important;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .08em;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.preproduct-text:hover {
+    color: #b5aa8f;
+}
+
+.price {
+    font-family: Chronicle !important;
+    font-weight: 300 !important;
+}
+
+p.price .woocommerce-Price-amount.amount {
+    font-weight: 300 !important;
+    font-size: 3.5rem !important;
+    font-style: normal !important;
+    letter-spacing: 0 !important;
+}
+
+.woocommerce div.product form.cart .variations select {
+    margin-bottom: 16px;
+}
+
+
+/* Custom Product Single Summary */
+
+.summary-main-title,
+form.variations_form.cart,
+.summary.entry-summary select#test {
+    max-width: 350px;
+    margin: auto !important;
+}
+
+.form.cart {
+    margin: auto !important;
+}
+
+.woocommerce div.product div.summary {
+    text-align: center;
+}
+
+.woocommerce .single-product-modern div.product form.cart .hongo-add-to-cart-button-wrap {
+    float: none;
+}
+
+.woocommerce .single-product-modern div.product form.cart .button {
+    width: 85%;
+}
+
+.woocommerce .single-product-modern div.product form.cart div.quantity {
+    width: 15%;
+    margin: 0 !important;
+    float: left;
+}
+
+@media (max-width: 1199px) {
+    html .woocommerce .single-product-modern div.product form.cart div.quantity {
+        margin-right: 0px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .woocommerce div.product .woocommerce-product-details__short-description,
+    .woocommerce form.cart,
+    .product_meta {
+        margin: auto !important;
+        padding: 0 !important;
+        float: none !important;
+    }
+}
+
+.hongo-variation-price-availability {
+    margin-top: -15px;
+}
+
+.woocommerce .single-product-modern div.product form.cart .hongo-add-to-cart-button-wrap {
+    margin: 0;
+}
+
+.summary-main-title-left {
+    width: 100%;
+}
+
+table.variations.iconic-wlv-variations {
+    margin-bottom: 0;
+    border: 0;
+}
+
+td.label.iconic-wlv-variations__label {
+    display: none !important;
+}
+
+td.value.iconic-wlv-variations__value {
+    padding: 0;
+    border: 0;
+}
+
+td.value.iconic-wlv-variations__value select {
+    margin: 0 !important;
+    padding: 8px !important;
+}
+
+form.variations_form.cart {
+    padding-top: 8px;
+}
+
+.woocommerce div.product form.cart .variations td.label.alt-font {
+    display: none;
+}
+
+.woocommerce form.cart .variations td {
+    padding: 0;
+}
+
+
+/* End Custom Product Single Summary */
+
+.what-size-am-i {
+    width: 30%;
+    float: right;
+    margin-top: 6px !important;
+}
+
+.woocommerce div.product form.cart .variations {
+    width: 70%;
+    float: left;
+}
+
+.summary span.availability_date {
+    display: block;
+    width: 100%;
+    max-width: 184px;
+    margin-left: 80px;
+    border: 2px solid;
+    padding: 10px;
+    font-size: 1.0rem;
+    padding-top: 48px;
+}
+
+.summary-main-title-left {
+    display: flex;
+    flex-direction: column;
+}
+
+span.preproduct-text {
+    order: 1;
+}
+
+.single-product .product .summary .yotpo.bottomLine.yotpo-small {
+    order: 2;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.yotpo.bottomLine.yotpo-medium {
+    margin: auto;
+}
+
+.summary.entry-summary .yotpo a {
+    color: grey !important;
+}
+
+.single-product .product .summary .product_title {
+    order: 3;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+.single-product .product form.variations_form.cart {
+    margin-top: 0;
+}
+
+.single-product .product .summary .price ins,
+.single-product .product .summary .price del {
+    width: auto;
+    padding-right: 40px;
+    font-weight: normal !important;
+}
+
+.single-product span.woocommerce-Price-amount.amount {
+    display: block;
+}
+
+.single-product .product .summary .price ins span,
+.single-product .product .summary .price del span {
+    font-size: 2.5rem;
+}
+
+.single-product .product .summary .price {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    order: 4;
+}
+
+.single-product .product .summary .price ins {
+    order: 1;
+}
+
+.single-product .product .summary .price del {
+    order: 2;
+    text-decoration: none;
+}
+
+.single-product div#wc-stripe-payment-request-wrapper {
+    padding-top: 0 !important;
+}
+
+.single-product .product .summary .price del span {
+    text-decoration: line-through;
+    color: #c2c2c2;
+}
+
+.bdi-backorder {
+    color: #c2c2c2 !important;
+}
+
+.single-product.preorder-product .product .summary .price ins:after {
+    content: 'Pre-Sale';
+    padding-top: 20px !important;
+    position: absolute;
+    margin-left: -25px;
+    font-size: 1.2rem;
+    line-height: 1em;
+    color: #c2c2c2;
+    font-weight: normal;
+}
+
+.single-product.preorder-product .product .summary .price del:after {
+    content: 'Regular';
+    padding-top: 20px !important;
+    position: absolute;
+    margin-left: -25px;
+    font-size: 1.2rem;
+    line-height: 1em;
+    color: #c2c2c2;
+    font-weight: normal;
+}
+
+.woocommerce.preorder-product div.product .hongo-variation-price-availability {
+    display: none;
+    margin-bottom: 0;
+}
+
+.cafe-lab-single {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.end-lab {
+    font-weight: 600;
+    font-size: 1.1rem !important;
+}
+
+.progress {
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    height: 7px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.progress-done {
+    background: linear-gradient(to left, #888888, #adadad);
+    box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #5f5f5f;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 0;
+    max-width: 100%;
+    opacity: 0;
+    transition: 1s ease 0.3s;
+}
+
+div#wcpa-checkbox-group-1590064328588 {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 559px) {
+    .quantity.alt-font {
+        width: 100%;
+    }
+    .woocommerce div.quantity input[type="number"] {
+        width: 100%;
+    }
+    button.single_add_to_cart_button.button.alt.alt-font {
+        width: 100%;
+    }
+    .summary span.availability_date {
+        max-width: 100%;
+        margin: 0;
+        padding-top: 88px;
+        text-align: center;
+    }
+    .single-product .variations_button span.availability_date {
+        width: 100%;
+        margin-left: 0;
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+span.cafe-product-name {
+    order: 3;
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.woocommerce div.product p.price .woocommerce-Price-amount.amount {
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+span.colorway {
+    display: block;
+    margin-top: 5px;
+}
+
+.summary.entry-summary select#test {
+    font-size: 13px;
+    background: url(https://dev.cafeleather.com/wp-content/themes/hongo/assets/images/small-select-arrow.png) right 8px center no-repeat #fff;
+    background-size: 15px;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin-bottom: 15px !important;
+}
+
+span.icon-size {
+    color: #b5aa8f;
+    width: 25px;
+    min-width: 25px;
+    margin-right: 10px;
+}
+
+.what-size-am-i {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    margin-top: 50px !important;
+}
+
+.what-size-am-i span {
+    text-align: left;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.woocommerce form.cart {
+    border: none !important;
+    margin-top: 0;
+    padding: 0;
+}
+
+.cat-submenu {
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: #000000 !important;
+}
+
+.info-menu .simple-menu .sub-menu {
+    padding-left: 15px !important;
+}
+
+.shop-menu .simple-menu {
+    opacity: 1 !important;
+}
+
+.info-menu .simple-menu {
+    opacity: 1 !important;
+}
+
+.leather-menu .sub-menu {
+    height: 0 !important;
+}
+
+.accessories-menu .sub-menu {
+    height: 0 !important;
+}
+
+.cases-menu .sub-menu {
+    height: 0 !important;
+}
+
+.categories-menu .sub-menu {
+    height: auto;
+}
+
+.simple-dropdown ul.sub-menu>li>ul.sub-menu {
+    padding-left: 24px !important;
+}
+
+.simple-dropdown .info-menu .simple-menu ul.sub-menu {
+    margin-left: 15px;
+}
+
+.open-submenu .simple-menu {
+    height: auto !important;
+}
+
+.close-submenu .simple-menu {
+    height: 0 !important;
+}
+
+.open-submenu .sub-menu {
+    height: auto !important;
+}
+
+.close-submenu .sub-menu {
+    height: 0 !important;
+}
+
+.simple-dropdown ul.sub-menu li>.l-submenu i.ti-angle-right {
+    display: block;
+}
+
+.simple-dropdown ul.sub-menu li>.c-submenu i.ti-angle-right {
+    display: block;
+}
+
+.simple-dropdown ul.sub-menu li>.a-submenu i.ti-angle-right {
+    display: block;
+}
+
+.simple-dropdown ul.sub-menu>li>ul.sub-menu>li>a {
+    color: #000 !important;
+    background: white !important;
+    font-size: 12px;
+    padding: 10px 0 11px 0;
+}
+
+.simple-dropdown .simple-menu ul.sub-menu {
+    background: white !important;
+    font-size: 12px;
+    padding: 10px 0 11px 0;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.filter-black {
+    filter: invert(1);
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.sub-black {
+    text-decoration: underline #000;
+    content: none;
+}
+
+.content_none:after {
+    content: none;
+}
+
+.font-black {
+    color: #000 !important;
+}
+
+@media (max-width: 900px) {
+    #hongo-navigation-menu-4 {
+        width: 100%;
+        /* margin-left: -77%;*/
+        /*top: 16px;*/
+        max-height: 560px !important;
+        height: 560px !important;
+    }
+    .velo-action {
+        width: 20% !important;
+        height: 1000% !important;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        opacity: 0.4;
+        z-index: 999;
+        margin-left: 80%;
+    }
+    .velo {
+        width: 0px;
+        height: 0px;
+    }
+    .hongo-navigation-main-wrapper .hongo-tab.panel {
+        max-height: 560px !important;
+        height: 560px !important;
+    }
+    .menu-main-m-mobile {
+        overflow: scroll;
+        height: 560px !important;
+    }
+    .velo {
+        overflow-x: hidden;
+    }
+    .scroll-body {
+        overflow-y: hidden;
+        touch-action: none;
+    }
+    .info-menu .simple-dropdown .simple-menu ul.sub-menu {
+        padding-left: 24px !important;
+    }
+    /*#menu-item-112617{
+margin-top: 250px;
+margin-bottom: 20px;
+}*/
+}
+
+.myaccount-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.2)), url("https://dev.cafeleather.com/wp-content/uploads/2020/10/banner-iwc-racing-works.jpg");
+    min-height: 34.7222222222vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.default-page-space {
+    padding: 0px !important;
+}
+
+.hongo-main-title-wrap {
+    display: none;
+}
+
+.pre-heading {
+    font-family: avenir;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 1.3333333333;
+    color: #fff;
+}
+
+.heading {
+    font-family: avenir;
+    font-size: 4rem;
+    line-height: 1.2;
+    display: block;
+    margin-bottom: 1.375em;
+    width: 400px;
+    color: #fff;
+}
+
+.sub-heading {
+    font-family: avenir;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .2rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+    line-height: 1.375;
+    display: block;
+    padding: 1em 0;
+    border-top: 1px solid;
+    color: #fff;
+}
+
+.header-profile {
+    margin-top: -300px;
+    margin-bottom: 80px;
+}
+
+.header-profile .container {
+    width: 100%;
+}
+
+.header-profile h1 {
+    width: 100%;
+    font-size: 2.4rem;
+    text-align: left;
+    grid-column: 2/span 10;
+    color: #fff;
+}
+
+.credits {
+    width: 10%;
+    display: inline-block;
+}
+
+.credits-end {
+    width: 60%;
+    display: inline-block;
+}
+
+.text-credits {
+    display: block;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-family: Chronicle;
+}
+
+.text-club {
+    margin-top: 0;
+    margin-bottom: 7rem;
+    font-size: 1.8rem;
+    line-height: 1.4444444444em;
+    font-family: Chronicle;
+}
