@@ -1,0 +1,109 @@
+.gift-cards-list{background-color:#B5AA8F; padding:70px 0;}
+.gift-cards_form.cart{width:100%;margin-bottom: 0px !important;}
+.gift-cards_form h2,.gift-cards_form h3{color:#fff;text-align:center!important}
+.section-delivery-date h2,.section-delivery-date h3{color:#232323!important;text-align:center!important}
+.section-delivery-date .ywgc-postdated label{color:#232323;font-weight:400;font-size:12px}
+.gift-cards-list{text-align:center}
+.gift-cards_form .step-title{font-size:12px;font-weight:500;font-family:'Montserrat',sans-serif;margin-bottom:10px;line-height:1em;text-transform:uppercase}
+.gift-cards_form h3{font-family:'Playfair Display',serif;margin:0;font-size:30px}
+.gift-inner-container{width:100%;max-width:560px;margin:0 auto}
+.gift-inner-container input{margin:0; width: 100%; font-family: 'Montserrat'; font-size: 13px;}
+.gift-inner-container textarea {font-family: 'Montserrat'; font-size: 13px;}
+.ywgc-recipient-email{margin-bottom:15px}
+.row-ammounts{display:flex;flex-flow:row wrap;justify-content:space-between;margin-top:70px}
+.gift-cards-list .ywgc-amount-buttons{width:30%;border:2px solid #fff;background-color:transparent;color:#fff}
+.gift-cards-list .ywgc-predefined-amount-button.selected_button{color:#B5AA8F!important}
+.ywgc-predefined-amount-button.selected_button{background-color:#fff}
+.ywgc-amount-buttons .amount{line-height:8em;font-size:18px}
+.section-delivery-date{padding:70px 0;background-color:#eee}
+.ywgc-postdated{margin-top:2em;text-align:center!important}
+.ywgc-postdated label{color:#fff;display:block!important;margin:20px 0!important;text-align:center;font-family:'Playfair Display',serif}
+.datepicker{margin:4em auto 0;max-width:360px}
+.ywgc-recipient{max-width:100%!important}
+.ui-datepicker{max-width:560px;width:100%;border-radius:0;background:#eee;border:none}
+.ui-datepicker-header{background:#fff;border:none;padding:10px 0!important;margin-bottom:15px;border-radius:0}
+.ui-datepicker-title{font-family:'Playfair Display',serif;color:#232323}
+.ui-state-default,.ui-widget-content .ui-state-default{background:#fff;line-height:2.5em;text-align:center;border:2px solid transparent}
+.product-type-gift-card .woocommerce-product-gallery__image { padding: 0;}
+.ui-state-default:hover,.ui-widget-content .ui-state-default:hover {border:2px solid #b5aa8f!important;background-color:#fff}
+.ui-datepicker-unselectable.ui-state-disabled .ui-state-default:hover,.ui-widget-content .ui-datepicker-unselectable.ui-state-disabled .ui-state-default:hover {border:2px solid transparent!important;}
+.ui-datepicker-unselectable.ui-state-disabled{opacity:1}
+.ui-datepicker-unselectable.ui-state-disabled .ui-state-default{background:#e2e2e2}
+table.ui-datepicker-calendar{border:none!important}
+.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{top:inherit}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:none;background:none}
+.ui-datepicker td{padding:2px 4px}
+.ui-datepicker table{border:none!important}
+.datepicker{font-family:'Playfair Display',serif;color:#232323}
+.section-where-going{padding:70px 0 0;background:#0f2130}
+.gift_card_template_button{margin:0 auto;float:inherit!important;background:#0f2130;padding: 20px 0 70px}
+.gift_card_template_button .gift-inner-container{display:flex;flex-direction:column}
+.preview-gift-card{margin-top:15px!important;max-width:350px;width: 100%;text-align:center;text-transform: uppercase;font-size: 12px !important;margin-left:auto!important;margin-right:auto!important;background-color:#0f2130!important;padding:9px 20px!important;border:2px solid #c2c2c2!important;color:#c2c2c2!important}
+.preview-gift-card:hover{border:2px solid #b5aa8f!important;color:#b5aa8f!important}
+a.ui-state-default.ui-state-active{border:2px solid #b5aa8f}
+.single-product.postid-119972 .reviews-top,.single-product.postid-119972 .stamped-product-reviews-badge,.single-product.postid-119972 .price.alt-font,
+.single-product.postid-119975 .reviews-top,.single-product.postid-119975 .stamped-product-reviews-badge,.single-product.postid-119975 .price.alt-font {display:none}
+.single-product.postid-119972 .summary-main-title-right,
+.single-product.postid-119975 .summary-main-title-right {width:100%;text-align:center}
+.single-product.postid-119975 .related-products-content, .single-product.postid-119972 .related-products-content {display: none;}
+.single-product.postid-119972 .product_title,
+.single-product.postid-119975 .product_title {font-size:13px!important;font-family:"Montserrat"!important;font-weight:600!important;color:#232323!important;line-height:1em}
+.single-product.postid-119972 .product_title > .colorway, .single-product.postid-119975 .product_title > .colorway{display: block;font-family: 'Playfair Display',serif;font-size: 44px!important;width: 100%;font-weight: 400;line-height: 1.2em;text-align: center;max-width: 250px;margin: 15px auto 0;}
+.summary p {font-family: 'Playfair Display',serif;font-size: 14px;font-weight: 400;text-align: center;margin: 15px auto 0;}
+.single-product.postid-119972 .summary-main-title-right > p, 
+.single-product.postid-119975 .summary-main-title-right > p {margin:25px 0;font-family:'Playfair Display',serif;color:#232323}
+.single-product.postid-119972 .featherlight.modal-is.single-product,
+.single-product.postid-119975 .featherlight.modal-is.single-product {display:none!important}
+.btn-gift-card{width: 100%;max-width: 190px;text-transform: uppercase;font-weight: 600 !important;background-color: #232323 !important;border: none!important;margin: 25px auto 0 !important;font-size: 12px !important;	}
+.btn-gift-card:hover{background-color:#B5AA8F!important;color:#232323!important}
+.gift_card_add_to_cart_button{max-width:350px;width: 100%;background-color:#b5aa8f!important;color:#232323!important;font-weight:600!important;margin: 0 auto!important;padding: 13px 20px!important;text-transform: uppercase;font-weight: 500 !important;font-size: 13px !important;line-height: 1em !important;}
+.gift_card_add_to_cart_button:hover{background-color:#c2c2c2!important}
+#gift-card-content .tab-container.active{height:auto;overflow:hidden}
+.product-type-gift-card .woocommerce-product-gallery__image > a {	position: relative !important;}
+.product-type-gift-card .woocommerce-product-gallery__wrapper { box-shadow: none !important;}
+.preview-gift-card-modal .featherlight-content {background-color: #c4c4c4 !important;}
+.content-preview-gift-card {background-color: #fff;}
+.content-preview-gift-card .ywgc-form-banner {width: 100%;}
+.ywgc-form-logo { max-width: 130px !important; margin: 30px auto; display: block;}
+.ywgc-form-data-sender {text-align: center; margin: 2em; font-family: 'Montserrat',sans-serif;font-weight: 400;}
+.ywgc-form-preview-message-container { background-color: #f8f8f8;}
+.ywgc-form-preview-message { padding: 4em 2em; text-align: center; font-family: 'Montserrat',sans-serif; font-weight: 400; color: #232323;}
+.ywgc-form-preview-amount-container {padding: 4em 2em;}
+.ywgc-form-preview-amount { float: inherit; font-size: 2.2em; text-align: center; font-weight: 600; font-family: 'Montserrat',sans-serif; color: #232323 !important;}
+.ywgc-form-title-value { text-align: center; font-family: 'Montserrat',sans-serif; text-transform: uppercase; margin: 15px 0 2em; color: #232323; font-weight: 400; font-size: 25px;}
+.ywgc-form-paragraph { text-align: center; font-family: 'Montserrat',sans-serif; color: #232323; letter-spacing: 1px; font-size: 12px; margin: 0 0 15px; line-height: 1em;}
+.ywgc-form-fake-button { text-align: center; display: block; max-width: 140px; font-family: 'Montserrat',sans-serif; border: 2px solid #232323; text-transform: uppercase; color: #232323 !important; margin: 25px auto; line-height: 1em; font-weight: 600; font-size: 12px; padding: 1em; pointer-events: none;}
+.ywgc-form-preview-gift-code {background-color: #9e9779;color: #fff;text-align: center;max-width: 200px;margin: 1.5em auto 0;line-height: 25px !important;padding: 15px 10px;font-size: 25px;}
+.preview-gift-card-modal > #main-popcontent { padding: 0 !important;}
+.header-giftcard { position: relative; display: inline-block; text-align: center; width: 100%;}
+.header-giftcard > p { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);  font-family: 'Playfair Display',serif; color: #fff; font-size: 55px; line-height: 1.2em; width: 600px;}
+.footer-banner-giftcard {background-color: #9e977a; padding: 80px 0; text-align: center; margin-top: -8px;}
+.footer-banner-giftcard > p { font-family: 'Playfair Display',serif; color: #fff; font-size: 32px; line-height: 1.2em; max-width: 600px; margin: 0 auto !important; }
+.gift-card-on-sale-text { margin: 0; font-family: 'Montserrat'; color: #c2c2c2; font-weight: 400; font-size: 15px; line-height: 1em; border: 1px solid; border-radius: 3px; padding: 5px 15px; max-width: 200px; text-align: center;}
+.product-type-gift-card .summary-main-title-left { align-items: center;}
+.footer-preview {margin-top: -7px; background-color: #b5aa8f; text-align: center; color: #fff; font-family: 'Playfair Display',serif;  padding: 60px 0;}
+.title-footer {font-size: 35px; max-width: 350px; margin: 0 auto; line-height: 1.2em;}
+.footer-preview img { max-width: 350px; margin: 60px auto 25px;}
+.title-song { font-size: 25px; margin: 0;}
+.title-author { font-size: 18px; margin: 5px 0; font-family: 'Montserrat';}
+.follow-spotify { margin: 50px 0 0; font-family: 'Montserrat'; font-weight: 500; font-size: 14px;}
+.footer-preview i {font-size: 25px; margin: 10px 0 0;}
+@media (max-width: 700px){
+	.header-giftcard > p {font-size: 35px; width: 400px;}
+	.footer-banner-giftcard > p {font-size: 25px; max-width: 460px;}
+}
+@media (max-width: 590px){
+	.gift-inner-container {max-width: 90%;}
+	.ywgc-amount-buttons .amount { line-height: 7em;}
+}
+@media (max-width: 450px){
+	.header-giftcard > p {font-size: 28px; width: 90%;}
+	.footer-banner-giftcard > p {font-size: 20px; max-width: 90%;}	
+}
+
+@media (max-width: 425px){
+	.gift-cards-list .ywgc-amount-buttons {width: 48%;}	
+}
+.woocommerce-product-gallery__image.swiper-slide:after{display: none;}
+.custom-slider-jm a {pointer-events: none;cursor: default;}
+.swiper-pagination, .swiper-button-next, .swiper-button-prev {display: none;}
