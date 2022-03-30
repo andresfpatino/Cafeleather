@@ -1,0 +1,3 @@
+.client_slide{padding:0 30px;display: flex !important;align-items: center;justify-content: center;}
+.client_slide__text{text-align:center;font-family:'Playfair Display';color:#000;font-size:25px;line-height:1.2em;font-weight:600}
+.client_slide__logo{width:140px;margin:0 auto}

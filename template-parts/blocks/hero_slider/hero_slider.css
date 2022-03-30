@@ -1,0 +1,37 @@
+.hero_slider{margin-bottom:0!important}
+.home .hero_slider{margin-top:-80px}
+.hero_slider .slick-arrow::before {display: none;}
+.hero_slider .container-cl {position: relative;height: 100%;}
+.hero_slider .slick-arrow svg {fill: #fff; width: 20px;}
+.hero_slider .slick-prev{position:absolute;left:25px;top:50%;-ms-transform:translateY(-50%);-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:1}
+.hero_slider .slick-next{position:absolute;right:25px;top:50%;-ms-transform:translateY(-50%);-webkit-transform:translateY(-50%);transform:translateY(-50%);z-index:1}
+.hero_slider .slick-dots{bottom:20px!important}
+.hero_slider .slick-dots li button:before{color:#fff!important;font-size:10px!important}
+.hero_slide{background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));background-position:center;background-repeat:no-repeat;background-size:cover;height:90vh;position:relative}
+.hero_slide__caption{position:absolute;top:40%;color:#fff}
+.hero_slide__label{font-weight:600;font-size:18px;line-height:24px;margin-bottom:10px}
+.hero_slide__title{font-family:'Playfair Display',serif;font-size:40px;line-height:1em;font-weight:400}
+a.hero_slide__button{border:2px solid;color:#fff;text-decoration:none;padding:10px 50px;font-size:12px;font-weight:400;text-transform:uppercase;line-height:1em}
+.hero_slide__button:hover{background-color:#fff;border-color:#fff;color:#666}
+.slider.is-admin .hero_slide{display:none}
+.slider.is-admin .hero_slide:first-child{display:block}
+.slider.is-admin .hero_slide__caption p{margin:0}
+.slider.is-admin .hero_slide__button{color:#fff!important;text-decoration:none!important;margin-top:1.5em!important;display:block}
+.slider.is-admin .hero_slide__button:hover{color:#666!important}
+
+.hero_slide__caption.left {text-align: left; }
+.hero_slide__caption.center {text-align: center; right: -50%; left: -50%;}
+.hero_slide__caption.right {text-align: left; right: 0;}
+
+@media (max-width: 1440px){
+	.hero_slider .container-cl {max-width: 80%;}
+}
+
+@media (max-width: 768px){
+	.hero_slide__caption.left, .hero_slide__caption.center, .hero_slide__caption.right {text-align: center;right: 0;left: 0;}	
+}
+
+@media (max-width: 425px){
+    .hero_slider .slick-arrow { display: none;}
+    .hero_slide__caption {width: 90%;}
+}
